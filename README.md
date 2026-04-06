@@ -1,7 +1,5 @@
 # `@sanity-labs/sdk-addon-dataset-runtime`
 
-Shared addon dataset runtime context for Sanetti SDK feature packages.
-
 This package provides the narrow runtime values that `@sanity-labs/sdk-comments` and
 `@sanity-labs/sdk-tasks` both need:
 
