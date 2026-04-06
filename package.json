@@ -1,6 +1,6 @@
 {
   "name": "@sanity-labs/sdk-addon-dataset-runtime",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": false,
   "type": "module",
   "license": "MIT",
@@ -13,7 +13,12 @@
   "bugs": {
     "url": "https://github.com/sanity-labs/sdk-addon-dataset-runtime/issues"
   },
-  "keywords": ["sanity", "sanity-labs", "runtime", "react"],
+  "keywords": [
+    "sanity",
+    "sanity-labs",
+    "runtime",
+    "react"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -24,7 +29,10 @@
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit -p tsconfig.json"
